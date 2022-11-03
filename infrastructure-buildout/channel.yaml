@@ -7,5 +7,5 @@ metadata:
   annotations:
     apps.open-cluster-management.io/reconcile-rate: med
 spec:
-  pathname: https://github.com/jnpacker/gitops-fleet-samples.git
+  pathname: https://github.com/jthibodeau41/fleet-mgmt.git
   type: Git
