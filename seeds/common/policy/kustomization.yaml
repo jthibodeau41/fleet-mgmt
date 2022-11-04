@@ -5,9 +5,9 @@ resources:
 - namespace.yaml
 - etcd-encryption.yaml
 - openshift-gitops.yaml
-- k8s-argocd.yaml
-- redhat-acs-ocp.yaml
-- redhat-acs-k8s.yaml
+#- k8s-argocd.yaml
+#- redhat-acs-ocp.yaml
+#- redhat-acs-k8s.yaml
 #- imagemanifestvulnerability.yaml
 #- complianceoperator.yaml
 - placement-all.yaml

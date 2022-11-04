@@ -24,16 +24,7 @@ spec:
               - kube-*
             include:
               - default
-          object-templates:
-            - complianceType: musthave
-              objectDefinition:
-                apiVersion: config.openshift.io/v1
-                kind: APIServer
-                metadata:
-                  name: cluster
-                spec:
-                  encryption:
-                    type: aescbc
+         
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
