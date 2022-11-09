@@ -18,7 +18,7 @@ spec:
           name: redhat-acs-central-installed
         spec:
           remediationAction: enforce
-          severity: med
+          severity: medium
           namespaceSelector:
             exclude:
               - kube-*
