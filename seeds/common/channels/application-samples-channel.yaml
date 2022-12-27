@@ -14,7 +14,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
   name: gitops-fleet-samples
-  namespace: seeds
+  namespace: big-bang
   annotations:
     apps.open-cluster-management.io/reconcile-rate: low
 spec:

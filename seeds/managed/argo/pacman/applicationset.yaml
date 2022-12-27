@@ -35,7 +35,7 @@ metadata:
   name: pacman-placement
   namespace: openshift-gitops
 spec:
-  clusterReplicas: 1   # Availability choice, maximum number of clusters to provision at once
+  clusterReplicas: 3   # Availability choice, maximum number of clusters to provision at once
   clusterSelector:
     matchLabels:
       'usage': 'production'
