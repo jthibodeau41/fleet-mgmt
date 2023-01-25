@@ -9,7 +9,7 @@ spec:
   resourceHint:
     type: memory
     order: desc
-  clusterReplicas: 1
+  clusterReplicas: 4
   clusterSelector:
     matchExpressions:
       - key: usage
