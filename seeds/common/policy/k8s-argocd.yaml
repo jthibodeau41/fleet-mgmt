@@ -18,7 +18,7 @@ spec:
           name: k8s-argocd-operator-installed
         spec:
           remediationAction: enforce
-          severity: med
+          severity: medium
           namespaceSelector:
             exclude:
               - kube-*
